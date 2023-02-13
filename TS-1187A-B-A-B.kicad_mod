@@ -23,9 +23,9 @@
   (pad "1" smd rect (at 3 -1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8f35c559-c7a3-4bf3-a123-9143c13cc110))
   (pad "2" smd rect (at -3 1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 12477e0a-76c3-4e8e-aef4-1438ec5ef40f))
   (pad "2" smd rect (at 3 1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aee53e84-8747-415e-93b0-39fba72776f7))
-  (model "/Users/mateijordache/Documents/KiCad/6.0/footprints/matei.pretty/TS_1187A_B_A_B.wrl"
+  (model "/Users/mateijordache/Documents/KiCad/6.0/3dmodels/TS-1187A-B-A-B--3DModel-STEP-56544.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
