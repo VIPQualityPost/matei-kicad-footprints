@@ -1,0 +1,255 @@
+(footprint "illuminator_LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "illuminator StepUp generated footprint")
+	(property "Reference" "FC_"
+		(at 0 1 0)
+		(layer "F.SilkS")
+		(uuid "e8c13b49-d81b-4618-8399-265cb3245903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val_"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "9defeb65-5834-40e7-ab8b-4ce8139aff8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b04c66a2-4d16-4038-8aba-304a6c180282")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f25ab2e-551b-43a6-ba77-13a0c0b481ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cccd6f6-477d-4f9d-829c-56fdbffbe758")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -25.720899 9.730643)
+		(mid -25.333127 6.516044)
+		(end -22.472116 4.999922)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "47a2bd77-a7e0-4586-9c93-b1c21ec4418d")
+	)
+	(fp_arc
+		(start -25.428027 -10.472127)
+		(mid 0.398614 -27.497111)
+		(end 25.720898 -9.730642)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44f652c1-557f-4668-8e84-8e905d40efe7")
+	)
+	(fp_arc
+		(start -22.527884 -4.999923)
+		(mid -25.634898 -6.857883)
+		(end -25.428027 -10.472127)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1f0a6d5-c791-4852-8a3b-7ca4188c4889")
+	)
+	(fp_arc
+		(start -22.527884 -4.999922)
+		(mid -17.500078 -0.027884)
+		(end -22.472116 4.999922)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a9697755-6cc9-42cc-a2f6-2fa5c9a421a9")
+	)
+	(fp_arc
+		(start -9.729367 25.72138)
+		(mid -19.444954 19.445918)
+		(end -25.720898 9.730642)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7774dc57-30c8-454f-9cf4-bb1a2fe11eac")
+	)
+	(fp_arc
+		(start -4.99984 22.540088)
+		(mid -6.542798 25.352486)
+		(end -9.729367 25.72138)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "52d1d243-96b2-44be-9546-c2620cdab673")
+	)
+	(fp_arc
+		(start -4.999839 22.540088)
+		(mid 0.040392 17.500163)
+		(end 4.998539 22.620861)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "279452f2-fe72-4dbe-8a41-ac914b9e1889")
+	)
+	(fp_arc
+		(start 9.724587 25.723188)
+		(mid 6.571357 25.375815)
+		(end 4.998539 22.620861)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "649bfe98-3fde-4f49-980f-b90f9d072bac")
+	)
+	(fp_arc
+		(start 22.477348 4.999949)
+		(mid 25.412038 6.622136)
+		(end 25.629747 9.968252)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "222f7d5e-0af1-4177-90b3-e12e76f07c4d")
+	)
+	(fp_arc
+		(start 22.477349 4.999948)
+		(mid 17.500001 0.002617)
+		(end 22.472116 -4.999922)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9272adca-0d53-42c1-b3b1-6f308f92b13d")
+	)
+	(fp_arc
+		(start 25.629748 9.968251)
+		(mid 19.352953 19.537483)
+		(end 9.724588 25.723188)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1109c3e-28ea-4229-92bd-4899381abcfe")
+	)
+	(fp_arc
+		(start 25.720899 -9.730643)
+		(mid 25.333127 -6.516044)
+		(end 22.472116 -4.999922)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d1432236-6fde-47da-950d-6ad2742b7b80")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -40 0)
+		(stroke
+			(width 0.016)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5e7a9ac8-5247-457c-821f-1179f7739478")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(uuid "4e3ed75f-7c13-4715-b892-fdc218d5a0d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -22.5 0)
+		(size 6.5 6.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b054499b-4566-4ef4-9f17-e23ec21fd592")
+	)
+	(pad "1" thru_hole circle
+		(at 0 22.5)
+		(size 6.5 6.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53fae88b-ef58-4de0-891f-abbbcb5747f0")
+	)
+	(pad "1" thru_hole circle
+		(at 22.5 0)
+		(size 6.5 6.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f668166a-f79c-4244-a29d-583ebda99781")
+	)
+	(model "/Users/mateijordache/Documents/KiCad/6.0/footprints/matei.pretty/illuminator.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

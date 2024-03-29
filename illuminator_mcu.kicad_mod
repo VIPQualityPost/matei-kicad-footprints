@@ -1,0 +1,201 @@
+(footprint "illuminator_mcu"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "illuminator StepUp generated footprint")
+	(property "Reference" "FC_"
+		(at 0 1 0)
+		(layer "F.SilkS")
+		(uuid "3111051a-2230-44f9-b100-4763ea9cb731")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val_"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "9910d9cf-878a-4b4a-ae35-da05eacc1322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02595c75-0aab-4508-a341-8c31de9342f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf52c545-f75f-4f65-8fa4-f9e1717f35f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df1bd08c-4687-4560-8e09-0c1e45eeb575")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -28.160875 -36.741433)
+		(end -28.160875 -53.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bfb10f9c-0b2a-4299-a7b3-71c5972d87fa")
+	)
+	(fp_line
+		(start -26.160875 -55.5)
+		(end 26.160875 -55.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec876210-cec5-4cea-9513-f9feaa77ea2f")
+	)
+	(fp_line
+		(start 28.160875 -53.5)
+		(end 28.160875 -36.741433)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b081348-93a1-4f6c-994d-02c4404d1d1a")
+	)
+	(fp_arc
+		(start -28.160875 -53.5)
+		(mid -27.575089 -54.914214)
+		(end -26.160875 -55.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ed41849d-d8e5-462f-8a39-eea2e7ce749d")
+	)
+	(fp_arc
+		(start -22.468999 -33.69561)
+		(mid -26.227247 -33.513644)
+		(end -28.160875 -36.741433)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "85e7527a-bf47-4bad-9284-133254ee3a8c")
+	)
+	(fp_arc
+		(start -22.468999 -33.69561)
+		(mid -0.000007 -40.500001)
+		(end 22.468988 -33.695617)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d9b6b0ee-26e0-4387-85c1-6577b15cbb51")
+	)
+	(fp_arc
+		(start 26.160875 -55.5)
+		(mid 27.575089 -54.914214)
+		(end 28.160875 -53.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d6f2ee4-3cd7-48fd-b89b-449c9d933e65")
+	)
+	(fp_arc
+		(start 28.160875 -36.741433)
+		(mid 26.227241 -33.513641)
+		(end 22.468988 -33.695617)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f6113dd-107c-4928-9da2-c599b74f4f8e")
+	)
+	(fp_text user "EDIT PAD NUMBERS"
+		(at 0 -2 0)
+		(layer "Cmts.User")
+		(uuid "267fa9e7-1347-40ce-b85d-bfd96c1cdb8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(italic yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(uuid "94a5bd5d-5309-4e84-91d7-68677934ea12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -22.5 -38)
+		(size 6.5 6.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af86351b-ca46-4df0-b42a-e4f2a34afc9e")
+	)
+	(pad "1" thru_hole circle
+		(at 22.5 -38)
+		(size 6.5 6.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "965010c3-50ed-4c67-8db1-4bc3d47c02ca")
+	)
+	(model "/Users/mateijordache/Documents/KiCad/6.0/footprints/matei.pretty/illuminator.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

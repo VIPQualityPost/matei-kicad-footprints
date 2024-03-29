@@ -1,0 +1,273 @@
+(footprint "DMP3028-UDFN2020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) ")
+	(tags "U-DFN2020-6 (Type F)")
+	(property "Reference" "Q201"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6452582c-c3ae-45d4-b608-d891b4ad8628")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DMP3028"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "cf563456-3b45-4d27-b558-48152f88e2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DFN_QFN:Diodes_UDFN2020-6_Type-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "234248e7-c6ee-44ae-bb67-08b6e33fddea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b3ea26-63db-4180-899c-35cc6fcab4af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "P-MOSFET transistor, drain/gate/source"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "864cadc4-de6a-43fe-97c8-41fe765061e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC ID" "C150441"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a54f50b2-4fb4-40dd-866a-960afdc105e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1 -1.11)
+		(end -1 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e20f5ad9-8e39-47d3-8990-89abc44d8a29")
+	)
+	(fp_line
+		(start 1.4 1.2)
+		(end -0.6 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e93d368c-1595-4999-9c56-0e00a662e3ae")
+	)
+	(fp_poly
+		(pts
+			(xy -1.34 -1.04) (xy -1.62 -1.04) (xy -1.34 -1.32) (xy -1.34 -1.04)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "68f4caaa-7e95-45e2-95f8-ad5fd26a49f3")
+	)
+	(fp_line
+		(start -1.4 -1.25)
+		(end -1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9501112-13ce-4f3d-ae77-67a031a5649a")
+	)
+	(fp_line
+		(start -1.4 1.25)
+		(end 1.4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "192c7105-8a23-4ee9-a9c3-8f18d075853b")
+	)
+	(fp_line
+		(start 1.4 -1.25)
+		(end -1.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d146529-1b2e-4067-b80b-58c8baaa0558")
+	)
+	(fp_line
+		(start 1.4 1.25)
+		(end 1.4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db56bb9e-131b-4f2c-8932-6c999400af5b")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5b3b246-c4e5-4f3c-8efc-476aae7842a2")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a37cdced-bdfe-4324-bee5-4bf5ef3740b0")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4044be6-ed00-46dc-9208-df5148203589")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9d1b4a8-ac69-45b6-ab1d-78ac47459f94")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e47c756e-a385-4756-88d4-31b561aa007c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(layer "F.Fab")
+		(uuid "7b0ac42a-0933-4569-85f5-8a9170261ffb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9375 -0.65)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "78c4d9a1-29bb-41cc-a804-30cc66513f2b")
+	)
+	(pad "1" smd rect
+		(at -0.9375 0)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd46c4ce-3830-435a-a33b-214f932bc92e")
+	)
+	(pad "1" smd rect
+		(at 0 -0.325)
+		(size 1.45 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4a717ee7-4365-46d0-93f0-c1150448a4c8")
+	)
+	(pad "1" smd rect
+		(at 0.9375 -0.65)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1091d364-f3c7-4824-bf11-24ae20577cff")
+	)
+	(pad "1" smd rect
+		(at 0.9375 0)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "20a9f8f0-3907-451c-9684-135b580aab77")
+	)
+	(pad "2" smd rect
+		(at -0.9375 0.65)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0e9db764-77c7-45f5-b5d4-7eb2e9c39a79")
+	)
+	(pad "3" smd rect
+		(at 0 0.7)
+		(size 0.92 0.285)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0550c2ee-6817-4bf2-9b7e-a62b752ed0a1")
+	)
+	(pad "3" smd rect
+		(at 0.9375 0.65)
+		(size 0.425 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ccfea10-0dd4-4328-a513-4a9d9406df7f")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Diodes_UDFN2020-6_Type-F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
