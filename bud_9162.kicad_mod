@@ -1,0 +1,192 @@
+(footprint "bud_9162"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "bud_enclosures StepUp generated footprint")
+	(property "Reference" "FC_"
+		(at 0 1 0)
+		(layer "F.SilkS")
+		(uuid "6db71aca-988f-4949-9fa5-889570f26c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val_"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "a2c75dd1-f38f-4f6f-a9e3-7e7df707d859")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "bud_9162"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "357a848e-cfa8-47e0-a005-e59d16c0e30d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0198d4f8-fb3c-486d-a307-f41caae252d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec7c3ffa-a6c1-48f9-8931-f39b4d4f711a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -26.94 41.4694)
+		(end -26.94 -46.5494)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0513ffbe-ff65-4407-a4aa-dd262629c8ea")
+	)
+	(fp_line
+		(start -21.94 -51.5494)
+		(end 21.16 -51.5494)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc0913fc-c128-4ba1-92d3-3196a4b03a66")
+	)
+	(fp_line
+		(start 21.16 46.4694)
+		(end -21.94 46.4694)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87d843cd-8ad8-4cae-aa72-da9832ea92ba")
+	)
+	(fp_line
+		(start 26.16 -46.5494)
+		(end 26.16 41.4694)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ee52a51-2275-4c63-a6d9-5731c782ae3c")
+	)
+	(fp_arc
+		(start -26.94 -46.5494)
+		(mid -25.475534 -50.084934)
+		(end -21.94 -51.5494)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "27747e54-5d5f-42a9-abea-b8f14667cbd4")
+	)
+	(fp_arc
+		(start -21.94 46.4694)
+		(mid -25.475534 45.004934)
+		(end -26.94 41.4694)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ed099dc6-4c1d-49f9-807c-6128d7733346")
+	)
+	(fp_arc
+		(start 21.16 -51.5494)
+		(mid 24.695534 -50.084934)
+		(end 26.16 -46.5494)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7632e1fc-87e3-46c2-a2fa-b9d12ce3d904")
+	)
+	(fp_arc
+		(start 26.16 41.4694)
+		(mid 24.695534 45.004934)
+		(end 21.16 46.4694)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0c6c10b-8160-409a-ad7d-bb5ad9af2db9")
+	)
+	(fp_line
+		(start -23.64 -52.54)
+		(end -23.64 47.46)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7876a827-0b8f-4f70-9ed4-5af8cec0266f")
+	)
+	(fp_line
+		(start 22.86 47.46)
+		(end 22.86 -52.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c86143d-8aea-458f-8a57-4311d2ead598")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(uuid "df1accd5-44c6-44c1-a4ed-4e20ff0ebfe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "C:/Users/matei/Documents/KiCad/8.0/3dmodels/BUD-EXT-9162.stp"
+		(offset
+			(xyz 76 23 -27.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
